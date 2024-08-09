@@ -23,7 +23,9 @@ public class Resources {
     private HttpStatus failedStatus;
 
     public static Resources with(String requestType) {
-        return new Resources(requestType);
+        // 和
+        return new Resources(requestType)
+                ;
     }
 
     public Resources onSuccess(HttpStatus status) {
