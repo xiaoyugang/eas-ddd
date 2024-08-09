@@ -23,7 +23,7 @@ public class Resources {
     private HttpStatus failedStatus;
 
     public static Resources with(String requestType) {
-        // 和
+        // 和1
         return new Resources(requestType)
                 ;
     }
